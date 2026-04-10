@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a231a"/>
+      <stop offset="100%" stop-color="#11412d"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#2d6955" stroke-opacity="0.45" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <text x="70" y="98" fill="#e4fff4" font-size="62" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">成本治理与生产落地三层护栏</text>
+  <rect x="100" y="150" width="1400" height="130" rx="20" fill="#123c2c" fill-opacity="0.62" stroke="#a7ffe2" stroke-width="3"/>
+  <text x="140" y="233" fill="#dbfff1" font-size="58" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">Fallback 链: Claude Sonnet → Claude Haiku → DeepSeek-V3.2</text>
+  <rect x="420" y="360" width="760" height="120" rx="24" fill="#103f2e" fill-opacity="0.64" stroke="#67f0c2" stroke-width="4"/>
+  <rect x="320" y="500" width="960" height="120" rx="24" fill="#103f2e" fill-opacity="0.64" stroke="#45d7aa" stroke-width="4"/>
+  <rect x="230" y="640" width="1140" height="120" rx="24" fill="#103f2e" fill-opacity="0.64" stroke="#29bc92" stroke-width="4"/>
+  <text x="615" y="438" fill="#ddfff2" font-size="62" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">成本治理层</text>
+  <text x="595" y="578" fill="#ddfff2" font-size="62" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">供应链安全层</text>
+  <text x="615" y="718" fill="#ddfff2" font-size="62" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">入口安全层</text>
+  <text x="480" y="842" fill="#d3ffef" font-size="56" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">目标：防止“一觉醒来 $1,100 账单”</text>
+</svg>
