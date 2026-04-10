@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a0820"/>
+      <stop offset="100%" stop-color="#5e1230"/>
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#7d2840" stroke-opacity="0.45" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+  <text x="70" y="98" fill="#ffe6ee" font-size="64" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">ClawHavoc 供应链攻击链路</text>
+  <g font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="56" fill="#ffe7ec">
+    <rect x="90" y="220" width="250" height="140" rx="18" fill="#7b1224" fill-opacity="0.62" stroke="#ff778f" stroke-width="3"/>
+    <rect x="400" y="220" width="250" height="140" rx="18" fill="#7b1224" fill-opacity="0.62" stroke="#ff778f" stroke-width="3"/>
+    <rect x="710" y="220" width="250" height="140" rx="18" fill="#7b1224" fill-opacity="0.62" stroke="#ff778f" stroke-width="3"/>
+    <rect x="1020" y="220" width="250" height="140" rx="18" fill="#7b1224" fill-opacity="0.62" stroke="#ff778f" stroke-width="3"/>
+    <rect x="1330" y="220" width="250" height="140" rx="18" fill="#7b1224" fill-opacity="0.62" stroke="#ff778f" stroke-width="3"/>
+    <text x="135" y="295">高星 Skill</text>
+    <text x="440" y="295">诱导安装</text>
+    <text x="750" y="295">植入木马</text>
+    <text x="1060" y="295">篡改记忆</text>
+    <text x="1370" y="295">长期潜伏</text>
+  </g>
+  <g stroke="#ff9cab" stroke-width="8" fill="#ff9cab">
+    <line x1="350" y1="290" x2="390" y2="290"/><polygon points="402,290 384,278 384,302"/>
+    <line x1="660" y1="290" x2="700" y2="290"/><polygon points="712,290 694,278 694,302"/>
+    <line x1="970" y1="290" x2="1010" y2="290"/><polygon points="1022,290 1004,278 1004,302"/>
+    <line x1="1280" y1="290" x2="1320" y2="290"/><polygon points="1332,290 1314,278 1314,302"/>
+  </g>
+  <rect x="120" y="510" width="1360" height="250" rx="22" fill="#370913" fill-opacity="0.6" stroke="#ff7489" stroke-width="3"/>
+  <text x="170" y="644" fill="#ffd5de" font-size="62" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif">核心结论：Skill = 受信任代码，安装即授予同等权限</text>
+</svg>
